@@ -10,5 +10,5 @@ def add_character(show, name)
   [:third_earthers] << "Snarf"
   [:jetsons] << "Astro"# Should return the array of the 'show' argument
 end
-#daily_weather[:temperature][2] = 74 
+#daily_weather[:temperature][2] = 74
 #daily_weather[:precipitation] << 1.01 #=> [0.0, 0.01, 0.03, 1.01]
