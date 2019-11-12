@@ -6,9 +6,9 @@ BASE_HOA = {
 
 
 def add_character(show, name)
-  BASE_HOA[:chipmunks] << "Dave"# Write your implementation here
-  BASE_HOA[:third_earthers] << "Snarf"
-  BASE_HOA[:jetsons] << "Astro"# Should return the array of the 'show' argument
+  [:chipmunks] << "Dave"# Write your implementation here
+  [:third_earthers] << "Snarf"
+  [:jetsons] << "Astro"# Should return the array of the 'show' argument
 end
 #daily_weather[:temperature][2] = 74
 #daily_weather[:precipitation] << 1.01 #=> [0.0, 0.01, 0.03, 1.01]
